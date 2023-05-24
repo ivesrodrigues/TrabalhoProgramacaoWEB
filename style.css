@@ -2,64 +2,64 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+  }
 
-header {
-    background-image: url(./BLOG-DUOMO-1-1.jpg);
+  header {
+    background-image: url(/BLOG-DUOMO-1-1.png);
     padding: 60px;
     text-align: center;
-    color: #fff;
-}
+    color: #55c0e0;
+  }
 
-nav {
+  nav {
     background-color: #f2f2f2;
     padding: 10px;
     display: flex;
     justify-content: flex-end;
-}
+  }
 
-nav ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+  }
 
-nav ul li {
+  nav ul li {
     display: inline;
     margin-right: 10px;
-    position: relative; /* Adicionado para posicionar os submenus */
-}
+    position: relative;
+  }
 
-nav ul li ul {
-    display: none; /* Oculta os submenus por padrão */
+  nav ul li ul {
+    display: none;
     position: absolute;
-    top: 100%; /* Posiciona abaixo do item principal do menu */
+    top: 100%;
     left: 0;
     background-color: #f2f2f2;
     padding: 10px;
-    font-size: 14px; /* Diminui o tamanho da fonte do submenu */
-}
+    font-size: 14px;
+  }
 
-nav ul li:hover > ul {
-    display: block; /* Exibe o submenu ao passar o mouse sobre o item principal */
-}
+  nav ul li:hover > ul {
+    display: block;
+  }
 
-nav ul li ul li {
+  nav ul li ul li {
     display: block;
     margin: 5px 0;
-}
+  }
 
-nav a {
+  nav a {
     text-decoration: none;
-}
+  }
 
-section {
+  section {
     padding: 20px;
-}
+  }
 
-footer {
+  footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-}
+  }

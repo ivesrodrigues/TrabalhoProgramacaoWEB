@@ -1,63 +1,76 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+}
 
-  header {
-    background-image: url(./BLOG-DUOMO-1-1.jpg);
-    padding: 60px;
-    text-align: center;
-    color: #55c0e0;
-  }
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
 
-  nav {
-    background-color: #f2f2f2;
-    padding: 10px;
+.flex{
     display: flex;
-    justify-content: flex-end;
-  }
+    align-items: center;
+    justify-content: space-between;
+}
 
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-    position: relative;
-  }
-
-  nav ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
+header{
+    width: 100%;
+    padding: 30px 4%;
+    position: fixed;
+    top: 0;
     left: 0;
-    background-color: #f2f2f2;
-    padding: 10px;
-    font-size: 14px;
-  }
+    transition: .5s;
+}
 
-  nav ul li:hover > ul {
-    display: block;
-  }
+header.rolagem{
+    background-color:#333;
+    padding: 5px 4%;
+}
 
-  nav ul li ul li {
-    display: block;
-    margin: 5px 0;
-  }
+header ul{
+    list-style-type: none;
+}
 
-  nav a {
+header ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header ul li a{
     text-decoration: none;
-  }
+    color: #fff;
+}
 
-  section {
+.banner{
+    height: 15vh;
+    background-color:lightgrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
     padding: 20px;
   }
 
-  footer {
+.galeria_caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.galeria{
+  height: 200px;
+  width: 20%;
+  border: thin solid;
+  padding: 5px;
+  margin: 0px 10px 0 0px;
+}
+
+footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
